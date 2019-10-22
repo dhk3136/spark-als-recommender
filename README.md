@@ -1,4 +1,4 @@
-# Case Study: Movie Recommender Systems
+# Case Study: Recommender Implementation with Spark ALS Collaborative Filtering
 
 ### Daniel Kim
 
@@ -27,7 +27,7 @@ When looking at the average rating given by user, the distribution is reasonably
 ## Approach and Analysis
 Given the nature of the dataset, two different approaches could be used for a recommender. A content-based recommendation system could be used to recommend movies based on similar features. Movie information and user-entered tags allow for a large corpus that could be used in latent feature analysis. Recommendations would be based on similarities between movies based on latent features, and correlated to user reviews of movies--in order to understand user preferences.
 
-<img src="images/content_based_filtering.png" width= "300" height= "300" /> 
+<img src="images/content_based_filtering.png" width= "300" height= "375" /> 
 
 Alternatively, a collaborative filtering recommendation system could be used with only the numerical rating data from users for movies. This approach allows for user-user, item-item, and user-item comparisons. The low density of this data, however, restricts the available approaches as sparse data restricts the ability to perform neighborhood-based collaborative filtering. Further, the sheer volume of data in the full data set makes this approach extremely resource-intensive as distances between all movies must be held in memory along with user-user distances.
 
