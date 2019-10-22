@@ -1,4 +1,4 @@
-# Case Study: Recommender Implementation with Spark ALS Collaborative Filtering
+# Recommender Implementation with Spark ALS Collaborative Filtering
 
 ### Daniel Kim
 
