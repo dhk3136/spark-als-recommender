@@ -55,5 +55,5 @@ Manually performing a random grid search narrowed it down to a rank of 2 and lea
 ## Conclusion
 Using a Spark ALS collaborative filtering recommendation system, with a RMSE of .8366, the baseline recommender was beat by the large margin of 17.8%! More importantly, since the model is built on Spark, it can be scaled to a much larger dataset for production use.  
   
-
-Header image courtesy University of Minnesota
+---
+> Header image courtesy University of Minnesota
