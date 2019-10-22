@@ -2,7 +2,7 @@
 
 #### Daniel Kim
 
-<img src="images/IMDb_Header_Page.jpg" width= "800" height= "300" /> 
+<img src="images/grouplens_logo.png" /> 
 
 ## The data
 --------------
