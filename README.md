@@ -1,12 +1,11 @@
 # Movie Recommender Case Study
 
-#### Daniel Kim
+### Daniel Kim
 
-<img src="images/grouplens_logo.png" /> 
+<img src="images/grouplens.png" /> 
 
 ## The data
---------------
-MovieLens is a recommender dataset composed of over 27 Million ratings from 280,000 users. Reviews of 58,000 movies include a numerical score and may include free-text entries from users as tags. For this case-study, a redacted portion of the dataset was used for development of the recommender.
+MovieLens is a recommender dataset created by GroupLens of the University of Minnesota. The data is composed of over 27 Million ratings from 280,000 users. Reviews of 58,000 movies include a numerical score and may include free-text entries from users as tags. For this case-study, a redacted portion of the dataset was used for development of the recommender.
 
 The reduced dataset consists of 100,000 user reviews from 671 user on over 9,000 movies. While substantial, this data represents a very sparse matrix, with only 1.64% data density in the original data and 1.42% and 0.61% density in the train and test splits, respectively. As a result, a recommender on this system will need to accommodate the sparsity of data--which eliminates several recommender approaches. 
 
